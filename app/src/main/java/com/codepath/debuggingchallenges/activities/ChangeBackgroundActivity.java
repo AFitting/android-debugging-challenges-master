@@ -22,7 +22,6 @@ public class ChangeBackgroundActivity extends AppCompatActivity {
 
     public void onGoClick(View view) {
         View mainView = findViewById(android.R.id.content);
-        Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
         mainView.setBackgroundColor(getNextColor());
     }
 
